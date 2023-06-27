@@ -1,0 +1,155 @@
+
+       
+            
+
+body{
+      background:linear-gradient(.25turn, red, 60%, blue);
+     
+}
+
+
+
+
+
+textarea[name=Message] {
+font-size: 30px;
+font-family: 'Lobster', cursive;
+
+
+}
+select[name=select] {
+font-size: 30px;
+font-family: 'Dancing Script', cursive;
+}
+
+select[name=choose] {
+font-size: 30px;
+font-family: 'Lobster', cursive;
+}
+
+textarea[name=Email] {
+font-size: 30px;
+font-style: oblique;
+width: 600px;
+box-sizing: content-box;
+}
+
+input[type=number] {
+font-style: italic;
+font-size: 30px;
+box-sizing: border-box;
+
+}
+
+
+input[type=text] {
+width: 400px;
+font-size: 30px;
+font-style: oblique;
+/* box-sizing: border-box;
+border: none;
+border-bottom: 2px solid red; */
+
+/* padding: 12px 20px;
+margin: 8px ; */
+/* box-sizing: border-box; */
+}
+
+.button{
+cursor: pointer;
+font-size: 30px;
+background-color: darkmagenta;
+color:white;
+border:2px solid black;
+}
+
+/* .button:hover{background-color: aqua} */
+.button active{
+background-color: chartreuse;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.container{
+cursor: pointer;
+}
+
+
+.disabled{
+
+background-color: red;
+color: white;
+opacity:0.6;
+cursor: not-allowed;
+position: relative;
+top: 15px;
+}
+
+
+placeholder{
+font-size: larger;
+}
+
+
+/* input[type=text] {
+width:100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: none;
+border-bottom: 2px solid black;
+} */
+*{
+margin: 0;
+padding: 0;
+}
+li{
+display: inline;
+background-color: aqua;
+color:white;
+font-size: 30px;
+}
+
+body{
+background: linear-gradient(to right, #0099f7, #f11712);
+
+/* background: linear-gradient(to right, #33001b, #ff0084);  */
+/* background:linear-gradient(.25turn, red, 60%, blue); */
+ /* background:linear-gradient(to left, #b6fbff, #83a4d4); */
+
+/* background: linear-gradient(#e66465, #9198e5); */
+
+
+
+/* height: 20px; */
+
+margin: 200px;
+padding: 180px;
+margin: auto;
+/* background-image: url('https://1.bp.blogspot.com/-NuEUfgJshwo/UAkoiMNnwyI/AAAAAAAAHuM/AVXoVClbEKU/s640/Hdhut.blogspot.com+(30).jpeg'); */
+
+text-align: center;
+font-size: 30px;
+font-style: italic;
+position: relative;
+bottom:10px;
+
+
+/* left:50px; */
+
+}
+@media screen and (max-width: 800px){
+body{
+    background: radial-gradient(circle, rgba(251,234,63,1) 20%, rgba(226,70,252,1) 100%);
+}
+
+}
+
+@media screen and(max-width:800px) {
+body{
+    width:100vw;
+}
+
+}
+
+
